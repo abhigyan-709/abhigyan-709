@@ -1,5 +1,5 @@
 # 💫 About Me:
-💻 Currently working as a DevOps & Cloud Engineer at 1Click Capital.<br>🌐 Always over the internet and available on the go.<br>🌚 Aspiring Software Architect <br>👪 A Family Man<br>
+💻 Currently working as a DevOps & Cloud Engineer at Nippon Data Systems.<br>🌐 Always over the internet and available on the go.<br>🌚 Aspiring Software Architect <br>👪 A Family Man<br>
 
 
 ## 🌐 Socials:
