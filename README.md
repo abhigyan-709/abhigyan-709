@@ -8,8 +8,6 @@
 
 💬 Feel free to reach out to discuss DevOps best practices!
 
-[![Abhigyan's GitHub stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709)](https://github.com/anuraghazra/github-readme-stats)
-
 ---
 
 ## Technologies & Tools I work in:
@@ -55,7 +53,9 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 
 ## GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709&show_icons=true&theme=radical) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhigyan-709&layout=compact&theme=radical)
+[![Abhigyan's GitHub stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709)](https://github.com/anuraghazra/github-readme-stats) 
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhigyan-709&layout=compact&theme=radical)
 
 [![Abhigyan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=abhigyan-709&theme=radical)](https://github.com/abhigyan-709)
 
