@@ -44,8 +44,8 @@ Fully functional Authentication API based on FastAPI following best DevOps Pract
 ### [FastAPI with React UI.](https://github.com/abhigyan-709/fastapi_projects)
 FastAPI backed, react app with deployment startegy over AWS EC2 & Nginx Server Instances
 
-### [Project DevOps.](https://github.com/abhigyan-709/project-devops)
-FastAPI backed, react app with deployment startegy over AWS EC2 & Nginx Server Instances
+### [Project DevOps.](https://github.com/abhigyan-709/project_devops)
+FastAPI backed, react app with deployment startegy over DevOps modern architecture
 
 ---
 
