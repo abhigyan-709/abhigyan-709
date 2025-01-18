@@ -8,6 +8,8 @@
 
 💬 Feel free to reach out to discuss DevOps best practices!
 
+[![Abhigyan's GitHub stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709)](https://github.com/anuraghazra/github-readme-stats)
+
 ---
 
 ## Technologies & Tools I work in:
