@@ -1,6 +1,6 @@
 # About Me
 
-![GitHub Contribution Snake](https://github.com/abhigyan-709/snake-github/blob/main/output/github-contribution-ocean.gif)
+![GitHub Contribution Snake](https://github.com/abhigyan-709/snake-github/blob/main/output/github-contribution-grid-snake.svg)
 
 👨‍💻 DevOps & Cloud Engineer with a passion for automating processes and creating scalable, reliable infrastructure.
 
