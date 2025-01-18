@@ -48,7 +48,7 @@ FastAPI backed, react app with deployment startegy over AWS EC2 & Nginx Server I
 
 ## GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709&show_icons=true&theme=radical)
 
 ---
 
