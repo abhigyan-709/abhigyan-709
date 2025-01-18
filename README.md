@@ -1,5 +1,7 @@
 # About Me
 
+![GitHub Contribution Snake](https://github.com/abhigyan-709/snake-github/blob/main/output/github-contribution-ocean.gif)
+
 👨‍💻 DevOps & Cloud Engineer with a passion for automating processes and creating scalable, reliable infrastructure.
 
 🚀 Currently working on cloud-native solutions and machine learning deployments.
@@ -62,12 +64,6 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 ![GitHub Followers](https://img.shields.io/github/followers/abhigyan-709?label=Followers&style=social)
 
 ![GitHub Stars](https://img.shields.io/github/stars/abhigyan-709?label=Stars&style=social)
-
-![GitHub Contribution Snake](https://github.com/abhigyan-709/snake-github/blob/main/output/github-contribution-grid-snake.svg)
-
-
-
-
 
 
 ---
