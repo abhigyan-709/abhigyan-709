@@ -65,6 +65,10 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 
 ![GitHub Stars](https://img.shields.io/github/stars/abhigyan-709?label=Stars&style=social)
 
+![Build Status](https://img.shields.io/github/workflow/status/abhigyan-709/project_devops)
+
+![License](https://img.shields.io/github/license/abhigyan-709/project_devops)
+
 
 ---
 
