@@ -65,9 +65,7 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 
 ![GitHub Contribution Snake](https://github.com/abhigyan-709/abhigyan-709/blob/output/github-contribution-grid-snake.svg)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=abhigyan-709&repo=your-repository&theme=radical)](https://github.com/abhigyan-709/your-repository)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=abhigyan-709&repo=your-repository&theme=radical)](https://github.com/abhigyan-709/your-repository)
 
 
 
