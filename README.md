@@ -53,6 +53,25 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709&show_icons=true&theme=radical)
 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhigyan-709&layout=compact&theme=radical)
+
+[![Abhigyan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=abhigyan-709&theme=radical)](https://github.com/abhigyan-709)
+
+[![Trophy](https://github-profile-trophy.vercel.app/?username=abhigyan-709&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
+
+![GitHub Followers](https://img.shields.io/github/followers/abhigyan-709?label=Followers&style=social)
+
+![GitHub Stars](https://img.shields.io/github/stars/abhigyan-709?label=Stars&style=social)
+
+![GitHub Contribution Snake](https://github.com/abhigyan-709/abhigyan-709/blob/output/github-contribution-grid-snake.svg)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=abhigyan-709&repo=your-repository&theme=radical)](https://github.com/abhigyan-709/your-repository)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=abhigyan-709&repo=your-repository&theme=radical)](https://github.com/abhigyan-709/your-repository)
+
+
+
+
 ---
 
 ## Latest Blog Posts
