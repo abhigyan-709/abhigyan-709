@@ -57,17 +57,10 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhigyan-709&layout=compact&theme=radical)
 
-[![Abhigyan's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=abhigyan-709&theme=radical)](https://github.com/abhigyan-709)
-
 [![Trophy](https://github-profile-trophy.vercel.app/?username=abhigyan-709&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
-
-![GitHub Followers](https://img.shields.io/github/followers/abhigyan-709?label=Followers&style=social)
 
 ![GitHub Stars](https://img.shields.io/github/stars/abhigyan-709?label=Stars&style=social)
 
-![Build Status](https://img.shields.io/github/workflow/status/abhigyan-709/project_devops)
-
-![License](https://img.shields.io/github/license/abhigyan-709/project_devops)
 
 
 ---
