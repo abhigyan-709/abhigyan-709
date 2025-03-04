@@ -54,6 +54,7 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 ## GitHub Stats
 
 [![Abhigyan's GitHub stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709)](https://github.com/anuraghazra/github-readme-stats) 
+![Abhigyan's GitHub stats](https://github-readme-stats.vercel.app/api?username=abhigyan-709&show_icons=true&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhigyan-709&layout=compact&theme=radical)
 
