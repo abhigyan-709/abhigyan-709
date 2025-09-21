@@ -70,6 +70,11 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 ## Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [From DevOps Engineer to Cloud Architect: a comprehensive guide for 2025](https://blogs.projectdevops.in/b/68d0383f172435f4a5c58373-from-devops-engineer-to-cloud-architect-a-comprehensive-guide-for-2025) — *2025-09-21*
+- [Python and AI in 2025 – Trends and a Practical Example](https://blogs.projectdevops.in/b/68d02c61172435f4a5c58371-python-and-ai-in-2025-trends-and-a-practical-example) — *2025-09-21*
+- [How AI is Helping DevOps Engineers : Without Replacing Them](https://blogs.projectdevops.in/b/68cffa63172435f4a5c5836a-how-ai-is-helping-devops-engineers-without-replacing-them) — *2025-09-21*
+- [Model Context Protocol (MCP): Standardizing How AI Models Connect with Tools and Data](https://blogs.projectdevops.in/b/68cfb075da21c240cfb9fa55-model-context-protocol-mcp-standardizing-how-ai-models-connect-with-tools-and-data) — *2025-09-21*
+- [Top 20 Linux Commands Every DevOps Engineer Should Know](https://blogs.projectdevops.in/b/68cfaa4cda21c240cfb9fa53-top-20-linux-commands-every-devops-engineer-should-know) — *2025-09-21*
 <!-- BLOG-POST-LIST:END -->
 
 ---
