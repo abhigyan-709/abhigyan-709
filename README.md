@@ -56,7 +56,21 @@
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-<!-- GitHub Action fills this section -->
+<table>
+  <thead>
+    <tr>
+      <th align='left'>Title</th>
+      <th align='right'>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td><a href="https://blogs.projectdevops.in/b/68d0383f172435f4a5c58373-fromdevopsengineertocloudarchitectacomprehensiveguidefor2025">From DevOps Engineer to Cloud Architect: a comprehensive guide for 2025</a> <span>🆕</span></td><td align="right"><code>2025-09-21</code></td></tr>
+<tr><td><a href="https://blogs.projectdevops.in/b/68d02c61172435f4a5c58371-pythonandaiin2025trendsandapracticalexample">Python and AI in 2025 – Trends and a Practical Example</a> <span>🆕</span></td><td align="right"><code>2025-09-21</code></td></tr>
+<tr><td><a href="https://blogs.projectdevops.in/b/68cffa63172435f4a5c5836a-howaiishelpingdevopsengineerswithoutreplacingthem">How AI is Helping DevOps Engineers : Without Replacing Them</a> <span>🆕</span></td><td align="right"><code>2025-09-21</code></td></tr>
+<tr><td><a href="https://blogs.projectdevops.in/b/68cfb075da21c240cfb9fa55-modelcontextprotocolmcpstandardizinghowaimodelsconnectwithtoolsanddata">Model Context Protocol (MCP): Standardizing How AI Models Connect with Tools and Data</a> <span>🆕</span></td><td align="right"><code>2025-09-21</code></td></tr>
+<tr><td><a href="https://blogs.projectdevops.in/b/68cfaa4cda21c240cfb9fa53-top20linuxcommandseverydevopsengineershouldknow">Top 20 Linux Commands Every DevOps Engineer Should Know</a> <span>🆕</span></td><td align="right"><code>2025-09-21</code></td></tr>
+  </tbody>
+</table>
 <!-- BLOG-POST-LIST:END -->
 
 <p align="right">
