@@ -2,11 +2,10 @@ name: Update Top 5 Blogs
 
 on:
   schedule:
-    - cron: "12 2 * * *"   # daily 02:12 UTC
+    - cron: "12 2 * * *"   # daily
   workflow_dispatch:
   push:
     paths:
-      - scripts/update_blogs.py
       - .github/workflows/update-blogs.yml
       - README.md
 
@@ -30,8 +29,82 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Update README Latest Blogs
-        run: python scripts/update_blogs.py
+      - name: Run updater
+        run: |
+          python - <<'PY'
+          import re, sys, requests
+          from datetime import datetime
+          from urllib.parse import quote
+          README_PATH = "README.md"
+          START_MARK = "<!-- BLOG-POST-LIST:START -->"
+          END_MARK   = "<!-- BLOG-POST-LIST:END -->"
+          API_URL = "https://api.projectdevops.in/blogs"
+          SITE_BASE = "https://blogs.projectdevops.in"
+          LINK_TEMPLATE = "{base}/b/{id}-{slug}"
+          TOP_N = 5
+
+          def slugify(title: str) -> str:
+              s = (title or "").strip().lower()
+              s = re.sub(r"[^a-z0-9\s-]", "", s)
+              s = re.sub(r"\s+", "-", s).strip("-")
+              return s or "post"
+
+          def parse_date(item: dict) -> str:
+              dt = item.get("created_at") or item.get("updated_at") or ""
+              try:
+                  d = datetime.fromisoformat(dt.replace("Z","+00:00"))
+                  return d.strftime("%Y-%m-%d")
+              except Exception:
+                  return ""
+
+          def fetch_posts():
+              r = requests.get(API_URL, timeout=15)
+              r.raise_for_status()
+              data = r.json()
+              if isinstance(data, dict) and "results" in data:
+                  data = data["results"]
+              if not isinstance(data, list):
+                  return []
+              data = sorted(data, key=lambda x: x.get("created_at") or x.get("updated_at") or "", reverse=True)
+              return data[:TOP_N]
+
+          def to_url(item: dict) -> str:
+              _id = str(item.get("_id") or item.get("id") or "").strip()
+              slug = slugify(item.get("title") or "Untitled")
+              if _id:
+                  return LINK_TEMPLATE.format(base=SITE_BASE, id=quote(_id, safe=""), slug=quote(slug, safe="-"))
+              return SITE_BASE
+
+          def build_md(items):
+              lines = []
+              for it in items:
+                  title = it.get("title") or "Untitled"
+                  url = to_url(it)
+                  date = parse_date(it)
+                  lines.append(f"- [{title}]({url})" + (f" — *{date}*" if date else ""))
+              return "\n".join(lines) if lines else "_No posts found_"
+
+          try:
+              posts = fetch_posts()
+              block = build_md(posts)
+              with open(README_PATH, "r", encoding="utf-8") as f:
+                  content = f.read()
+              pattern = re.compile(rf"({re.escape(START_MARK)})(.*)({re.escape(END_MARK)})", re.DOTALL)
+              replacement = f"{START_MARK}\n{block}\n{END_MARK}"
+              if re.search(pattern, content):
+                  new_content = re.sub(pattern, replacement, content)
+              else:
+                  new_content = content + f"\n\n## Latest Blog Posts\n\n{replacement}\n"
+              if new_content != content:
+                  with open(README_PATH, "w", encoding="utf-8") as f:
+                      f.write(new_content)
+                  print("README updated.")
+              else:
+                  print("README already up to date.")
+          except Exception as e:
+              print(f"ERROR: {e}", file=sys.stderr)
+              sys.exit(1)
+          PY
 
       - name: Commit & Push (if changed)
         run: |
