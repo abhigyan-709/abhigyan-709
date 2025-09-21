@@ -69,8 +69,8 @@ FastAPI backed, react app with deployment startegy over DevOps modern architectu
 
 ## Latest Blog Posts
 
-- [Why Jenkins is so Important](https://www.linkedin.com/posts/abhigyan709_jenkins-jenkinscicd-devops-activity-7195521522755657730-L5IJ?utm_source=share&utm_medium=member_desktop)
-- [Challenges against NBFCs in India.](https://www.linkedin.com/feed/update/urn:li:activity:7069219029592285184/)
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
