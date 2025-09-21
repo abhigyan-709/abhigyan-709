@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://projectdevops.in"><img alt="Website" src="https://img.shields.io/badge/Website-projectdevops.in-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
+  <a href="https://blogs.projectdevops.in"><img alt="Website" src="https://img.shields.io/badge/Website-projectdevops.in-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
   <a href="https://blogs.projectdevops.in"><img alt="Blog" src="https://img.shields.io/badge/Blog-blogs.projectdevops.in-16a34a?style=for-the-badge&logo=hashnode&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/abhigyan709/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-abhigyan709-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:abhigyan709@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-abhigyan709%40gmail.com-f43f5e?style=for-the-badge&logo=gmail&logoColor=white"></a>
