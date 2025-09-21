@@ -1,8 +1,8 @@
-name: Update Top 5 Blogs
+name: Update Top 5 Blogs (Pretty)
 
 on:
   schedule:
-    - cron: "12 2 * * *"   # daily
+    - cron: "12 2 * * *"   # daily 02:12 UTC
   workflow_dispatch:
   push:
     paths:
@@ -29,36 +29,46 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run updater
+      - name: Update README Latest Blogs (HTML table)
         run: |
           python - <<'PY'
           import re, sys, requests
-          from datetime import datetime
+          from datetime import datetime, timezone, timedelta
           from urllib.parse import quote
+
+          # ====== CONFIG ======
+          API_URL = "https://api.projectdevops.in/blogs"
+          SITE_BASE = "https://blogs.projectdevops.in"
+          # final link: https://blogs.projectdevops.in/b/<id>-<slug>
+          LINK_TEMPLATE = "{base}/b/{id}-{slug}"
+          TOP_N = 5
+          NEW_DAYS = 7  # show 🆕 for posts newer than this many days
           README_PATH = "README.md"
           START_MARK = "<!-- BLOG-POST-LIST:START -->"
           END_MARK   = "<!-- BLOG-POST-LIST:END -->"
-          API_URL = "https://api.projectdevops.in/blogs"
-          SITE_BASE = "https://blogs.projectdevops.in"
-          LINK_TEMPLATE = "{base}/b/{id}-{slug}"
-          TOP_N = 5
+          TIMEOUT = 15
+          # ====================
 
           def slugify(title: str) -> str:
+              import re as _re
               s = (title or "").strip().lower()
-              s = re.sub(r"[^a-z0-9\s-]", "", s)
-              s = re.sub(r"\s+", "-", s).strip("-")
+              s = _re.sub(r"[^a-z0-9\\s-]", "", s)
+              s = _re.sub(r"\\s+", "-", s).strip("-")
               return s or "post"
 
-          def parse_date(item: dict) -> str:
-              dt = item.get("created_at") or item.get("updated_at") or ""
+          def parse_dt(s: str):
+              if not s: return None
               try:
-                  d = datetime.fromisoformat(dt.replace("Z","+00:00"))
-                  return d.strftime("%Y-%m-%d")
+                  s = s.replace("Z", "+00:00")
+                  dt = datetime.fromisoformat(s)
+                  if dt.tzinfo is None:
+                      dt = dt.replace(tzinfo=timezone.utc)
+                  return dt
               except Exception:
-                  return ""
+                  return None
 
           def fetch_posts():
-              r = requests.get(API_URL, timeout=15)
+              r = requests.get(API_URL, timeout=TIMEOUT)
               r.raise_for_status()
               data = r.json()
               if isinstance(data, dict) and "results" in data:
@@ -68,39 +78,69 @@ jobs:
               data = sorted(data, key=lambda x: x.get("created_at") or x.get("updated_at") or "", reverse=True)
               return data[:TOP_N]
 
-          def to_url(item: dict) -> str:
+          def to_url(item):
               _id = str(item.get("_id") or item.get("id") or "").strip()
-              slug = slugify(item.get("title") or "Untitled")
-              if _id:
-                  return LINK_TEMPLATE.format(base=SITE_BASE, id=quote(_id, safe=""), slug=quote(slug, safe="-"))
-              return SITE_BASE
+              title = item.get("title") or "Untitled"
+              slug = slugify(title)
+              return LINK_TEMPLATE.format(base=SITE_BASE, id=quote(_id, safe=""), slug=quote(slug, safe="-")) if _id else SITE_BASE
 
-          def build_md(items):
-              lines = []
+          def build_html_table(items):
+              now = datetime.now(timezone.utc)
+              rows = []
               for it in items:
                   title = it.get("title") or "Untitled"
                   url = to_url(it)
-                  date = parse_date(it)
-                  lines.append(f"- [{title}]({url})" + (f" — *{date}*" if date else ""))
-              return "\n".join(lines) if lines else "_No posts found_"
+                  dt = parse_dt(it.get("created_at") or it.get("updated_at"))
+                  date_str = dt.strftime("%Y-%m-%d") if dt else ""
+                  is_new = (dt is not None) and ((now - dt) <= timedelta(days=NEW_DAYS))
+                  new_badge = " <span>🆕</span>" if is_new else ""
+                  rows.append(
+                      f"<tr>"
+                      f"<td><a href=\"{url}\">{title}</a>{new_badge}</td>"
+                      f"<td align=\"right\"><code>{date_str}</code></td>"
+                      f"</tr>"
+                  )
+              if not rows:
+                  rows.append("<tr><td colspan='2'><em>No posts found</em></td></tr>")
 
-          try:
-              posts = fetch_posts()
-              block = build_md(posts)
+              table = (
+                  "<table>\n"
+                  "  <thead>\n"
+                  "    <tr>\n"
+                  "      <th align='left'>Title</th>\n"
+                  "      <th align='right'>Date</th>\n"
+                  "    </tr>\n"
+                  "  </thead>\n"
+                  "  <tbody>\n"
+                  + "\n".join(rows) +
+                  "\n  </tbody>\n"
+                  "</table>"
+              )
+              return table
+
+          def update_readme(block_html: str):
               with open(README_PATH, "r", encoding="utf-8") as f:
                   content = f.read()
+
               pattern = re.compile(rf"({re.escape(START_MARK)})(.*)({re.escape(END_MARK)})", re.DOTALL)
-              replacement = f"{START_MARK}\n{block}\n{END_MARK}"
+              replacement = f"{START_MARK}\n{block_html}\n{END_MARK}"
+
               if re.search(pattern, content):
                   new_content = re.sub(pattern, replacement, content)
               else:
                   new_content = content + f"\n\n## Latest Blog Posts\n\n{replacement}\n"
+
               if new_content != content:
                   with open(README_PATH, "w", encoding="utf-8") as f:
                       f.write(new_content)
                   print("README updated.")
               else:
                   print("README already up to date.")
+
+          try:
+              posts = fetch_posts()
+              html = build_html_table(posts)
+              update_readme(html)
           except Exception as e:
               print(f"ERROR: {e}", file=sys.stderr)
               sys.exit(1)
@@ -112,7 +152,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
-            git commit -m "chore: update latest blog posts [skip ci]"
+            git commit -m "chore: pretty latest blog posts [skip ci]"
             git push
           else
             echo "No changes."
