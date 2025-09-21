@@ -1,13 +1,6 @@
 # About Me
 
-<picture>
-  <!-- Dark mode -->
-  <source media="(prefers-color-scheme: dark)" srcset="./output/github-contribution-snake-dark.svg" />
-  <!-- Light mode -->
-  <source media="(prefers-color-scheme: light)" srcset="./output/github-contribution-snake-light.svg" />
-  <!-- Fallback / brand theme -->
-  <img alt="GitHub Contribution Snake" src="./output/github-contribution-snake-brand.svg" />
-</picture>
+![GitHub Contribution Snake (Ocean Theme)](https://raw.githubusercontent.com/abhigyan-709/snake-github/main/output/github-contribution-snake-ocean.svg)
 
 
 👨‍💻 DevOps & Cloud Engineer with a passion for automating processes and creating scalable, reliable infrastructure.
