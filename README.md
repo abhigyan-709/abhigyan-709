@@ -1,6 +1,8 @@
 # About Me
 
-![GitHub Contribution Snake (Ocean Theme)](https://raw.githubusercontent.com/abhigyan-709/snake-github/main/output/github-contribution-snake-ocean.svg)
+<picture>
+  <img alt="GitHub Contribution Snake (Ocean Theme)" src="https://raw.githubusercontent.com/abhigyan-709/snake-github/main/output/github-contribution-snake-ocean.svg" />
+</picture>
 
 
 👨‍💻 DevOps & Cloud Engineer with a passion for automating processes and creating scalable, reliable infrastructure.
