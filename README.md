@@ -64,11 +64,11 @@
     </tr>
   </thead>
   <tbody>
+<tr><td><a href="https://blogs.projectdevops.in/b/68d6f46c5054c4a2294fa2c3-systemdesignconceptsandcommonpitfallsyoumustavoid">System Design Concepts and Common Pitfalls You Must Avoid</a> <span>🆕</span></td><td align="right"><code>2025-09-26</code></td></tr>
 <tr><td><a href="https://blogs.projectdevops.in/b/68d596d1afc0e6a25969e109-kubernetesv133in-placepodresizingresizepodswithoutrestarting">Kubernetes v1.33 In-Place Pod Resizing: Resize Pods Without Restarting</a> <span>🆕</span></td><td align="right"><code>2025-09-25</code></td></tr>
 <tr><td><a href="https://blogs.projectdevops.in/b/68d5927bafc0e6a25969e107-buildingdockerhardenedimagesapracticalguideforsecurecontainerdeployments">Building Docker Hardened Images: A Practical Guide for Secure Container Deployments</a> <span>🆕</span></td><td align="right"><code>2025-09-25</code></td></tr>
 <tr><td><a href="https://blogs.projectdevops.in/b/68d452298670f918d612d17d-20commondockermistakestoavoidandhowtofix">20 Common Docker Mistakes to Avoid and How to Fix</a> <span>🆕</span></td><td align="right"><code>2025-09-24</code></td></tr>
 <tr><td><a href="https://blogs.projectdevops.in/b/68d3c839e32775919dc8bdbc-gettingstartedwithkubernetesdeployingandscalinganapplicationonaws">Getting Started with Kubernetes: Deploying and Scaling an Application on AWS</a> <span>🆕</span></td><td align="right"><code>2025-09-24</code></td></tr>
-<tr><td><a href="https://blogs.projectdevops.in/b/68d3a1812d5c27f08f1cea72-theultimateguidetobuildingaiagentswithgenaiandagenticai-fromlocaltoproduction">The Ultimate Guide to Building AI Agents with GenAI and Agentic AI - from Local to Production</a> <span>🆕</span></td><td align="right"><code>2025-09-24</code></td></tr>
   </tbody>
 </table>
 <!-- BLOG-POST-LIST:END -->
