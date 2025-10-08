@@ -65,7 +65,7 @@
   </thead>
   <tbody>
 <tr><td><a href="https://blogs.projectdevops.in/b/68df4205579aa7bcbf79c4df-lostyourec2pemkeyhereseverywaytogetbackinstep-by-stepguide">Lost Your EC2 .pem Key? Here’s Every Way to Get Back In Step-by-Step Guide</a> <span>🆕</span></td><td align="right"><code>2025-10-03</code></td></tr>
-<tr><td><a href="https://blogs.projectdevops.in/b/68db4f1be38bed46d0ee8f64-whylinuxisessentialfordevops">Why Linux Is Essential for DevOps</a> <span>🆕</span></td><td align="right"><code>2025-09-30</code></td></tr>
+<tr><td><a href="https://blogs.projectdevops.in/b/68db4f1be38bed46d0ee8f64-whylinuxisessentialfordevops">Why Linux Is Essential for DevOps</a></td><td align="right"><code>2025-09-30</code></td></tr>
 <tr><td><a href="https://blogs.projectdevops.in/b/68d6f46c5054c4a2294fa2c3-systemdesignconceptsandcommonpitfallsyoumustavoid">System Design Concepts and Common Pitfalls You Must Avoid</a></td><td align="right"><code>2025-09-26</code></td></tr>
 <tr><td><a href="https://blogs.projectdevops.in/b/68d596d1afc0e6a25969e109-kubernetesv133in-placepodresizingresizepodswithoutrestarting">Kubernetes v1.33 In-Place Pod Resizing: Resize Pods Without Restarting</a></td><td align="right"><code>2025-09-25</code></td></tr>
 <tr><td><a href="https://blogs.projectdevops.in/b/68d5927bafc0e6a25969e107-buildingdockerhardenedimagesapracticalguideforsecurecontainerdeployments">Building Docker Hardened Images: A Practical Guide for Secure Container Deployments</a></td><td align="right"><code>2025-09-25</code></td></tr>
