@@ -64,11 +64,7 @@
     </tr>
   </thead>
   <tbody>
-<tr><td><a href="https://blogs.projectdevops.in/b/690234582d21a9be01f76aed-nvidiaat5trillionvsindiasgdpwhatthatjaw-droppingcomparisonreallymeans">Nvidia at $5 Trillion vs India’s GDP: What That Jaw-Dropping Comparison Really Means</a></td><td align="right"><code>2025-10-29</code></td></tr>
-<tr><td><a href="https://blogs.projectdevops.in/b/68ea6841ddb1305dfa1c3d9c-kubernetesthirderaproductionreality">Kubernetes’ Third Era: Production Reality</a></td><td align="right"><code>2025-10-11</code></td></tr>
-<tr><td><a href="https://blogs.projectdevops.in/b/68df4205579aa7bcbf79c4df-lostyourec2pemkeyhereseverywaytogetbackinstep-by-stepguide">Lost Your EC2 .pem Key? Here’s Every Way to Get Back In Step-by-Step Guide</a></td><td align="right"><code>2025-10-03</code></td></tr>
-<tr><td><a href="https://blogs.projectdevops.in/b/68db4f1be38bed46d0ee8f64-whylinuxisessentialfordevops">Why Linux Is Essential for DevOps</a></td><td align="right"><code>2025-09-30</code></td></tr>
-<tr><td><a href="https://blogs.projectdevops.in/b/68d6f46c5054c4a2294fa2c3-systemdesignconceptsandcommonpitfallsyoumustavoid">System Design Concepts and Common Pitfalls You Must Avoid</a></td><td align="right"><code>2025-09-26</code></td></tr>
+<tr><td colspan='2'><em>No posts found</em></td></tr>
   </tbody>
 </table>
 <!-- BLOG-POST-LIST:END -->
