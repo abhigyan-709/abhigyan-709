@@ -37,9 +37,8 @@ jobs:
           plugin_notable_from: starred
           plugin_notable_repositories: yes
 
-          # Lines of code & traffic
+          # Lines of code
           plugin_lines: yes
-          plugin_traffic: yes
 
           # Output file
           filename: metrics.svg
