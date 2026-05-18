@@ -5,7 +5,7 @@
 
 <!-- HEADER BANNER (working capsule-render) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:16A34A,100:F59E0B&height=220&section=header&text=Abhigyan&fontSize=80&fontAlignY=35&desc=DevOps%20%26%20Cloud%20Engineer&descAlignY=58&descSize=18&fontColor=ffffff&animation=fadeIn" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:16A34A,100:F59E0B&height=220&section=header&text=Abhigyan&fontSize=80&fontAlignY=38&desc=DevOps%20and%20Cloud%20Engineer&descAlignY=60&descSize=18&fontColor=ffffff&animation=fadeIn" alt="header" />
 </div>
 
 <!-- TYPING ANIMATION -->
@@ -216,20 +216,3 @@ Got an idea? Let's build something great together! 🚀
 <div align="center">
   <sub>⭐ From <a href="https://github.com/abhigyan-709">Abhigyan</a> — If you like my work, consider giving a star to my repos!</sub>
 </div>
-
-
-## Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-<table>
-  <thead>
-    <tr>
-      <th align='left'>Title</th>
-      <th align='right'>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-<tr><td colspan='2'><em>No posts found</em></td></tr>
-  </tbody>
-</table>
-<!-- BLOG-POST-LIST:END -->
