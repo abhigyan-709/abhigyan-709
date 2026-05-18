@@ -1,11 +1,11 @@
 <!--
   Abhigyan's Modern GitHub Profile README
-  Crafted with ❤️ - DevOps & Cloud Engineer
+  DevOps & Cloud Engineer
 -->
 
-<!-- ANIMATED HEADER -->
+<!-- HEADER BANNER (working capsule-render) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=220&section=header&text=Abhigyan&fontSize=80&fontAlignY=35&desc=DevOps%20%26%20Cloud%20Engineer%20%7C%20Automating%20Infra%20%7C%20Shipping%20Reliable%20Systems&descAlignY=58&descSize=16&fontColor=ffffff&animation=fadeIn" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:16A34A,100:F59E0B&height=220&section=header&text=Abhigyan&fontSize=80&fontAlignY=35&desc=DevOps%20%26%20Cloud%20Engineer&descAlignY=58&descSize=18&fontColor=ffffff&animation=fadeIn" alt="header" />
 </div>
 
 <!-- TYPING ANIMATION -->
@@ -112,12 +112,6 @@ fun_fact: "I automate everything I do twice 🔁"
 
 <div align="center">
 
-<a href="https://github.com/abhigyan-709/project_devops">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=abhigyan-709&repo=project_devops&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=16a34a" />
-</a>
-<a href="https://github.com/abhigyan-709/authentication_project">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=abhigyan-709&repo=authentication_project&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=16a34a" />
-</a>
 <a href="https://github.com/abhigyan-709/fastapi_projects">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=abhigyan-709&repo=fastapi_projects&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=0ea5e9&icon_color=16a34a" />
 </a>
@@ -127,25 +121,9 @@ fun_fact: "I automate everything I do twice 🔁"
 
 </div>
 
-### 🌟 Open Source Contributions
+### 🌟 Project Highlights
 
 <table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <h4>🏗️ Project DevOps</h4>
-      <p>Modern DevOps architecture with FastAPI, React, Nginx, AWS, and full CI/CD pipelines.</p>
-      <a href="https://github.com/abhigyan-709/project_devops">
-        <img src="https://img.shields.io/badge/View_Project-0ea5e9?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </td>
-    <td align="center" width="50%">
-      <h4>🔐 Authentication API</h4>
-      <p>Production-ready FastAPI authentication system with security best practices baked in.</p>
-      <a href="https://github.com/abhigyan-709/authentication_project">
-        <img src="https://img.shields.io/badge/View_Project-16a34a?style=for-the-badge&logo=github&logoColor=white" />
-      </a>
-    </td>
-  </tr>
   <tr>
     <td align="center" width="50%">
       <h4>⚡ FastAPI + React Stack</h4>
@@ -174,7 +152,7 @@ fun_fact: "I automate everything I do twice 🔁"
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abhigyan-709&theme=tokyonight&hide_border=true&background=0d1117&stroke=0ea5e9&ring=0ea5e9&fire=f59e0b&currStreakLabel=0ea5e9" />
+  <img src="https://streak-stats.demolab.com?user=abhigyan-709&theme=tokyonight&hide_border=true&background=0d1117&stroke=0ea5e9&ring=0ea5e9&fire=f59e0b&currStreakLabel=0ea5e9" />
 </div>
 
 <br/>
@@ -192,17 +170,6 @@ fun_fact: "I automate everything I do twice 🔁"
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=abhigyan-709&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" />
   </a>
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhigyan-709/snake-github/main/output/github-contribution-snake-ocean.svg" />
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/abhigyan-709/snake-github/main/output/github-contribution-snake-ocean.svg" />
-  </picture>
 </div>
 
 ---
@@ -243,26 +210,9 @@ Got an idea? Let's build something great together! 🚀
 
 <!-- FOOTER WAVE -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=ffffff&animation=twinkling" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,50:16A34A,100:0EA5E9&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=22&fontColor=ffffff&animation=twinkling" alt="footer" />
 </div>
 
 <div align="center">
   <sub>⭐ From <a href="https://github.com/abhigyan-709">Abhigyan</a> — If you like my work, consider giving a star to my repos!</sub>
 </div>
-
-
-## Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-<table>
-  <thead>
-    <tr>
-      <th align='left'>Title</th>
-      <th align='right'>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-<tr><td colspan='2'><em>No posts found</em></td></tr>
-  </tbody>
-</table>
-<!-- BLOG-POST-LIST:END -->
