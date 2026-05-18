@@ -222,3 +222,20 @@ Got an idea? Let's build something great together.
 <div align="center">
   <sub>From <a href="https://github.com/abhigyan-709">Abhigyan</a> — if you like my work, consider starring the repos.</sub>
 </div>
+
+
+## Latest Blog Posts
+
+<!-- BLOG-POST-LIST:START -->
+<table>
+  <thead>
+    <tr>
+      <th align='left'>Title</th>
+      <th align='right'>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+<tr><td colspan='2'><em>No posts found</em></td></tr>
+  </tbody>
+</table>
+<!-- BLOG-POST-LIST:END -->
